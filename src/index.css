@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 768px;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.navigationList{
+    list-style: none;
+    padding: 20px;
+
+
+}
+
+.navigationList li {
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+.navigationList li:hover {
+    cursor: pointer;
+    color: aqua;
+}
+.display{
+    width: 100%;
+    padding: 20px;
+
+}
+.blockNav{
+    position: relative;
+    min-width: 20px;
+    min-height: 208px;
+    border-right: 1px solid black;
+}
+.navigationList-none{
+    display: none;
+}
+
+.arrow-btn{
+    position: absolute;
+    right: 0 ;
+    bottom: 50%;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.active__arrow-btn{
+    transform: rotate(0deg);
+
+}
+
